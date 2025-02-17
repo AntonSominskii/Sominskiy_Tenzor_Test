@@ -9,6 +9,7 @@
 
 ## Структура проекта
 
+```plaintext
 SominiskiyTenzorTest/
 ├── pages/
 │   ├── base_test_util.py        # Базовые методы для работы с WebDriver (поиск элементов, ожидания и т.д.)
@@ -17,13 +18,13 @@ SominiskiyTenzorTest/
 │   ├── tensor_page.py           # Страница tensor.ru
 │   └── urls_constants.py        # Класс для хранения URL-адресов (SBIS_URL, TENSOR_URL и т.д.)
 ├── tests/
-│   ├── test_contacts.py         # Первый и второй сценарии (контакты, проверка региона, баннер Тензор)
-│   ├── test_download_plugin.py  # Дополнительный сценарий (скачивание плагина)
+│   ├── test_contacts.py         # Первый и второй сценарии
+│   ├── test_download_plugin.py  # Третий (дополнительный) сценарий
 ├── conftest.py                  # Фикстура для инициализации браузера, Allure-хуки
 ├── pytest.ini                   # Дополнительные настройки Pytest (опционально)
 ├── requirements.txt             # Список зависимостей (pytest, selenium, allure-pytest и т.д.)
 └── README.md                    # Документация (вы читаете его)
-
+```
 
 ---
 
